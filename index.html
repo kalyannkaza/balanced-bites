@@ -19,11 +19,22 @@
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            position: relative;
         }
 
         header h1 {
             font-size: 2.5rem;
             margin: 0;
+        }
+
+        header img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            height: auto;
+            opacity: 0.2;
         }
 
         main {
@@ -88,6 +99,7 @@
             cursor: pointer;
             text-align: center;
             display: inline-block;
+            text-decoration: none;
         }
 
         .button:hover {
@@ -115,6 +127,7 @@
 
 <header>
     <h1>Balanced Bites - Foods for a Healthy Heart</h1>
+    <img src="https://via.placeholder.com/1200x300" alt="Balanced Bites Header Image">
 </header>
 
 <main>
@@ -164,37 +177,7 @@
         <img src="Kalyann%20Report%20-%20Balanced%20Diet_files/Image_005.jpg" alt="Creamy Cinnamon Oatmeal">
     </section>
 
-    <section>
-        <h2>Dish 2: Toasted Granary Bread with Crushed Beans and Red Onion</h2>
-        <div class="ingredients">
-            <div>
-                <h3>Ingredients:</h3>
-                <ul>
-                    <li>1 slice of granary bread</li>
-                    <li>1 small can of beans</li>
-                    <li>Basil oil</li>
-                    <li>Sundried tomatoes</li>
-                    <li>Few slices of onion</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Nutrition (per serving):</h3>
-                <ul>
-                    <li>Calories: 225</li>
-                </ul>
-            </div>
-        </div>
-        <h3>Steps:</h3>
-        <ol>
-            <li>Toast bread until golden brown.</li>
-            <li>Mash beans with basil oil and season.</li>
-            <li>Sauté onions and sundried tomatoes lightly.</li>
-            <li>Spread mash on bread, top with onions and tomatoes.</li>
-        </ol>
-        <img src="Kalyann%20Report%20-%20Balanced%20Diet_files/Image_006.jpg" alt="Toasted Granary Bread">
-    </section>
-
-    <a class="button" href="#">Explore More Recipes</a>
+    <a class="button" href="#recipes">Explore More Recipes</a>
 </main>
 
 <footer>
