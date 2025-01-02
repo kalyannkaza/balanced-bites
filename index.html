@@ -3,186 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalyann Report - Balanced Diet</title>
+    <title>Balanced Bites - Foods for a Healthy Heart</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            color: #333;
             background-color: #f9f9f9;
+            color: #333;
         }
-
         header {
-            background: #155F82;
+            background-color: #155F82;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
-            position: relative;
         }
-
         header h1 {
-            font-size: 2.5rem;
             margin: 0;
         }
-
-        header img {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            max-width: 100%;
-            height: auto;
-            opacity: 0.2;
+        nav {
+            background: #104d67;
+            padding: 0.5rem 1rem;
         }
-
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
         main {
-            padding: 1.5rem;
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 2rem auto;
+            padding: 1rem;
             background: #fff;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-
         section {
             margin-bottom: 2rem;
         }
-
         section h2 {
             border-bottom: 2px solid #155F82;
             padding-bottom: 0.5rem;
             color: #155F82;
         }
-
-        .ingredients, .nutrition, .steps {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
+        .content-block {
+            margin-bottom: 1.5rem;
         }
-
-        .ingredients ul, .nutrition ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
         }
-
-        .ingredients li, .nutrition li {
-            margin-bottom: 0.5rem;
-        }
-
-        .steps ol {
-            list-style-type: decimal;
-            margin: 0;
-            padding-left: 1.5rem;
-        }
-
         img {
             max-width: 100%;
-            height: auto;
             border-radius: 5px;
         }
-
-        .highlight {
-            background: #e7f3f7;
-            padding: 1rem;
-            border-left: 5px solid #155F82;
-            margin-bottom: 1rem;
-        }
-
-        .button {
-            background: #155F82;
-            color: #fff;
-            padding: 0.5rem 1rem;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            display: inline-block;
-            text-decoration: none;
-        }
-
-        .button:hover {
-            background: #104d67;
-        }
-
         footer {
             text-align: center;
             padding: 1rem 0;
             background: #155F82;
             color: #fff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        @media (max-width: 768px) {
-            .ingredients, .nutrition, .steps {
-                flex-direction: column;
-            }
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Balanced Bites - Foods for a Healthy Heart</h1>
+    </header>
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#cholesterol">What is Cholesterol?</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#commitment">Commitment to Health</a>
+    </nav>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Balanced Bites: 10 Foods for a Healthy Heart is a cookbook that blends culinary art with health science. It addresses the critical link between nutrition and cardiovascular health, aiming to make scientific ideas practical and accessible through heart-healthy recipes.</p>
+        </section>
 
-<header>
-    <h1>Balanced Bites - Foods for a Healthy Heart</h1>
-    <img src="https://via.placeholder.com/1200x300" alt="Balanced Bites Header Image">
-</header>
-
-<main>
-    <section>
-        <h2>Introduction</h2>
-        <div class="highlight">
-            Balanced Bites: 10 Foods for a Healthy Heart combines culinary art with health science to tackle rising cholesterol levels and promote heart health through nutritious and flavorful recipes.
-        </div>
-    </section>
-
-    <section>
-        <h2>Dish 1: Creamy Cinnamon Oatmeal with Banana and Berries</h2>
-        <div class="ingredients">
-            <div>
-                <h3>Ingredients:</h3>
-                <ul>
-                    <li>100g porridge oats</li>
-                    <li>&frac12; tsp cinnamon</li>
-                    <li>4 tsp demerara sugar</li>
-                    <li>300ml skimmed milk</li>
-                    <li>3 sliced bananas</li>
-                    <li>400g strawberries (halved)</li>
-                    <li>150g fat-free natural yogurt</li>
-                </ul>
+        <section id="cholesterol">
+            <h2>What is Cholesterol?</h2>
+            <div class="content-block">
+                <p>Cholesterol is a waxy substance essential for bodily functions but can be harmful in excess. LDL cholesterol, often called "bad cholesterol," contributes to artery blockages, while HDL cholesterol helps remove it. Maintaining balanced cholesterol levels is vital for heart health.</p>
             </div>
-            <div>
-                <h3>Nutrition (per serving):</h3>
+        </section>
+
+        <section id="recipes">
+            <h2>Recipes</h2>
+            <article class="content-block">
+                <h3>Creamy Cinnamon Oatmeal</h3>
+                <p>A heart-healthy breakfast combining oats, bananas, and strawberries. Packed with beta-glucan fiber and antioxidants.</p>
                 <ul>
-                    <li>Kcal: 266</li>
-                    <li>Fat: 2g</li>
-                    <li>Saturates: 1g</li>
-                    <li>Carbs: 53g</li>
-                    <li>Sugars: 34g</li>
-                    <li>Fibre: 5g</li>
-                    <li>Protein: 12g</li>
-                    <li>Salt: 0.24g</li>
+                    <li>Prep Time: 15 mins</li>
+                    <li>Serves: 4</li>
+                    <li>Calories: 266 per serving</li>
                 </ul>
-            </div>
-        </div>
-        <h3>Steps:</h3>
-        <ol>
-            <li>Combine oats, cinnamon, sugar, and milk in a saucepan.</li>
-            <li>Add banana slices and cook over medium heat, stirring occasionally.</li>
-            <li>Reduce heat and simmer until creamy, adjusting milk as needed.</li>
-            <li>Serve with strawberries, yogurt, and a pinch of cinnamon.</li>
-        </ol>
-        <img src="Kalyann%20Report%20-%20Balanced%20Diet_files/Image_005.jpg" alt="Creamy Cinnamon Oatmeal">
-    </section>
+            </article>
 
-    <a class="button" href="#recipes">Explore More Recipes</a>
-</main>
+            <article class="content-block">
+                <h3>Citrus-Glazed Salmon</h3>
+                <p>A nutrient-packed lunch featuring omega-3 rich salmon with brown rice and a tangy lime dressing.</p>
+                <ul>
+                    <li>Prep Time: 15 mins</li>
+                    <li>Serves: 4</li>
+                    <li>Calories: 497 per serving</li>
+                </ul>
+            </article>
 
-<footer>
-    <p>&copy; 2025 Kalyann Report. All rights reserved.</p>
-</footer>
+            <article class="content-block">
+                <h3>Crunchy Trail Mix</h3>
+                <p>An easy snack with almonds, walnuts, and dried fruit, ideal for boosting energy and reducing cholesterol.</p>
+                <ul>
+                    <li>Prep Time: 5 mins</li>
+                    <li>Yield: 1 cup</li>
+                    <li>Calories: 336 per serving</li>
+                </ul>
+            </article>
+        </section>
 
+        <section id="commitment">
+            <h2>A Commitment to Better Health</h2>
+            <p>Maintaining low cholesterol levels is not just a dietary choice but a step toward a healthier, longer life. This cookbook is a tool for adopting heart-healthy eating habits, proving that nutritious meals can be delicious and easy to prepare.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kalyann Venkkat Sai Kaza | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
